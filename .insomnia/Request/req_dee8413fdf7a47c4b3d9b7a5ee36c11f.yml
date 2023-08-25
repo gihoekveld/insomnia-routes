@@ -1,0 +1,23 @@
+_id: req_dee8413fdf7a47c4b3d9b7a5ee36c11f
+type: Request
+parentId: fld_dc412e30edab4ea2afb1004ccc380b93
+modified: 1692965708385
+created: 1692935769088
+url: "{{host}}/stalls"
+name: List Stalls
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication: {}
+metaSortKey: -1692962537047
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

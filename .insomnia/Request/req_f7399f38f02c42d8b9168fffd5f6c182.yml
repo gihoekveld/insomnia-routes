@@ -1,0 +1,31 @@
+_id: req_f7399f38f02c42d8b9168fffd5f6c182
+type: Request
+parentId: fld_dc412e30edab4ea2afb1004ccc380b93
+modified: 1692965705922
+created: 1692935798848
+url: "{{host}}/stalls"
+name: Create Stall
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Vinho Quente",
+    	"description": "Copo"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication: {}
+metaSortKey: -1692962536947
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
