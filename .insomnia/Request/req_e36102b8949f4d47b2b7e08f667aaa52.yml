@@ -1,17 +1,17 @@
 _id: req_e36102b8949f4d47b2b7e08f667aaa52
 type: Request
 parentId: fld_27d1cc828c9f45caad8f3a4631423128
-modified: 1693061869574
+modified: 1693066362062
 created: 1693061814933
 url: "{{host}}/categories"
-name: Create Product Category
+name: Create Category
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"name": "New category"
+    	"name": "Jogos"
     }
 parameters: []
 headers:
@@ -20,7 +20,7 @@ headers:
   - name: User-Agent
     value: Insomnia/2023.5.6
 authentication: {}
-metaSortKey: -1693061814933
+metaSortKey: -1693063762165
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

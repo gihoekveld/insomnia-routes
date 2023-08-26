@@ -1,23 +1,19 @@
-_id: req_f06b55e833a84c62a65dc8449223f5e2
+_id: req_f1892cdf50844e95a631d38b4df86f85
 type: Request
 parentId: fld_f0a76622a09a453eafc53252640e4618
-modified: 1693066338388
-created: 1692926178019
-url: "{{host}}/products"
-name: List Products
+modified: 1693066340550
+created: 1693064392727
+url: "{{host}}/products/4"
+name: Delete Product
 description: ""
-method: GET
-body:
-  mimeType: application/json
-  text: ""
+method: DELETE
+body: {}
 parameters: []
 headers:
-  - name: Content-Type
-    value: application/json
   - name: User-Agent
     value: Insomnia/2023.5.6
 authentication: {}
-metaSortKey: -1693035239158.5
+metaSortKey: -1692962520415
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

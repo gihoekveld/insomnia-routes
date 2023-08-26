@@ -1,7 +1,7 @@
 _id: req_6eb33c4039d144c7afb98479bb6a5e4b
 type: Request
 parentId: fld_396e0b030bd44235aa95f4655a6a26f4
-modified: 1693062532451
+modified: 1693066370268
 created: 1693062156602
 url: "{{host}}/order-tickets/:id/items"
 name: Add Item
@@ -17,7 +17,7 @@ headers:
   - name: User-Agent
     value: Insomnia/2023.5.6
 authentication: {}
-metaSortKey: -1693062156602
+metaSortKey: -1693062187255
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

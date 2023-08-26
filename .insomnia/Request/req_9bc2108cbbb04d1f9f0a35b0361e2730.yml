@@ -1,7 +1,7 @@
 _id: req_9bc2108cbbb04d1f9f0a35b0361e2730
 type: Request
 parentId: fld_f0a76622a09a453eafc53252640e4618
-modified: 1693009178392
+modified: 1693066342498
 created: 1692929214127
 url: "{{host}}/products"
 name: Create Product
@@ -13,7 +13,6 @@ body:
     {
     	"name": "Pastel de Queijo",
     	"price": 1000,
-    	"description": "Recheio de queijo mussarela",
     	"qtd": 50,
     	"category_id": 1,
     	"stall_id": 1
@@ -25,7 +24,7 @@ headers:
   - name: User-Agent
     value: Insomnia/2023.5.6
 authentication: {}
-metaSortKey: -1692962520515
+metaSortKey: -1692973430188
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
