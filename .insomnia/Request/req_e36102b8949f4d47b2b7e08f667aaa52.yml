@@ -1,18 +1,17 @@
-_id: req_f7399f38f02c42d8b9168fffd5f6c182
+_id: req_e36102b8949f4d47b2b7e08f667aaa52
 type: Request
-parentId: fld_dc412e30edab4ea2afb1004ccc380b93
-modified: 1693009128827
-created: 1692935798848
-url: "{{host}}/stalls"
-name: Create Stall
+parentId: fld_27d1cc828c9f45caad8f3a4631423128
+modified: 1693061869574
+created: 1693061814933
+url: "{{host}}/categories"
+name: Create Product Category
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"name": "Pastel",
-    	"description": "Pastéis doces e salgados"
+    	"name": "New category"
     }
 parameters: []
 headers:
@@ -21,7 +20,7 @@ headers:
   - name: User-Agent
     value: Insomnia/2023.5.6
 authentication: {}
-metaSortKey: -1692962536947
+metaSortKey: -1693061814933
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

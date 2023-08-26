@@ -1,0 +1,23 @@
+_id: req_dab762e610ac4afb99fb305f2345e2e3
+type: Request
+parentId: fld_f0a76622a09a453eafc53252640e4618
+modified: 1693006111081
+created: 1693006085590
+url: "{{host}}/products/category/1"
+name: List Products by Category
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication: {}
+metaSortKey: -1693006085590
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
