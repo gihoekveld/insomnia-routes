@@ -1,9 +1,9 @@
 _id: req_dab762e610ac4afb99fb305f2345e2e3
 type: Request
 parentId: fld_f0a76622a09a453eafc53252640e4618
-modified: 1693006111081
+modified: 1693073885051
 created: 1693006085590
-url: "{{host}}/products/category/1"
+url: "{{host}}/products/category/4"
 name: List Products by Category
 description: ""
 method: GET

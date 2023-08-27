@@ -1,11 +1,11 @@
 _id: env_f7091117fb7171cd05adf427146e7e9294741377
 type: Environment
 parentId: wrk_adb8aecabdba4934ad4379437eca272a
-modified: 1692965663989
+modified: 1693145379597
 created: 1692926174704
 name: Base Environment
 data:
-  host: localhost:3000
+  host: localhost:8787
 dataPropertyOrder:
   "&":
     - host

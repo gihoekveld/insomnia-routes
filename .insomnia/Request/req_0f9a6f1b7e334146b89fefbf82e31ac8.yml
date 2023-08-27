@@ -1,21 +1,20 @@
-_id: req_5387450b1a8f4a1c95b26ddd00d326d6
+_id: req_0f9a6f1b7e334146b89fefbf82e31ac8
 type: Request
-parentId: fld_f0a76622a09a453eafc53252640e4618
-modified: 1693071550368
-created: 1692962545054
-url: "{{host}}/products/2"
-name: Update Product
+parentId: fld_396e0b030bd44235aa95f4655a6a26f4
+modified: 1693082687157
+created: 1693069756008
+url: "{{host}}/order-tickets/1/items/1/quantity/add"
+name: Add Item Quantity
 description: ""
 method: PUT
 body:
   mimeType: application/json
   text: |-
     {
-    	"name": "Pastel",
-    	"price": 10,
-    	"qtd": 40,
-    	"category_id": 1,
-    	"stall_id": 1
+    	"qtd": 1,
+    	"product_id": 1,
+    	"stall_id": 1,
+    	"order_ticket_id": 1
     }
 parameters: []
 headers:
@@ -24,7 +23,7 @@ headers:
   - name: User-Agent
     value: Insomnia/2023.5.6
 authentication: {}
-metaSortKey: -1692962545054
+metaSortKey: -1693062187055
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

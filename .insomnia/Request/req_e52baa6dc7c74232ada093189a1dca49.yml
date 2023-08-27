@@ -1,9 +1,9 @@
 _id: req_e52baa6dc7c74232ada093189a1dca49
 type: Request
 parentId: fld_396e0b030bd44235aa95f4655a6a26f4
-modified: 1693062526372
+modified: 1693090506962
 created: 1693062187155
-url: "{{host}}/order-tickets/:id/items/:id"
+url: "{{host}}/order-tickets/1/items/4"
 name: Remove Item
 description: ""
 method: DELETE

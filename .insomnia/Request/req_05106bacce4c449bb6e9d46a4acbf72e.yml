@@ -1,19 +1,19 @@
-_id: req_fae1c5e615bd46bd91f1cd61366b528a
+_id: req_05106bacce4c449bb6e9d46a4acbf72e
 type: Request
-parentId: fld_f0a76622a09a453eafc53252640e4618
-modified: 1693066335774
-created: 1693066119313
-url: "{{host}}/products/name/Pastel"
-name: List Products by Name
+parentId: fld_3e06207acb4e4259bbe8faae5715bee4
+modified: 1693074756314
+created: 1693074736443
+url: "{{host}}/order-tickets/1"
+name: Delete Order
 description: ""
-method: GET
+method: DELETE
 body: {}
 parameters: []
 headers:
   - name: User-Agent
     value: Insomnia/2023.5.6
 authentication: {}
-metaSortKey: -1692984315322
+metaSortKey: -1693074736443
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

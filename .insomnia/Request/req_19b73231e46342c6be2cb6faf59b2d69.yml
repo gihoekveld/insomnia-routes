@@ -1,7 +1,7 @@
 _id: req_19b73231e46342c6be2cb6faf59b2d69
 type: Request
 parentId: fld_3e06207acb4e4259bbe8faae5715bee4
-modified: 1693066380520
+modified: 1693081309581
 created: 1693061928466
 url: "{{host}}/order-tickets"
 name: Create Order
@@ -9,7 +9,12 @@ description: ""
 method: POST
 body:
   mimeType: application/json
-  text: "{}"
+  text: |-
+    {
+    	"order_code": "{% uuid 'v4' %}",
+    	"created_at": "{% now 'iso-8601', '' %}",
+    	"payment_status": "pending"
+    }
 parameters: []
 headers:
   - name: Content-Type

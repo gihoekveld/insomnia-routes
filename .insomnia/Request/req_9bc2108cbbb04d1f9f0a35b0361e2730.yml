@@ -1,7 +1,7 @@
 _id: req_9bc2108cbbb04d1f9f0a35b0361e2730
 type: Request
 parentId: fld_f0a76622a09a453eafc53252640e4618
-modified: 1693066342498
+modified: 1693078761516
 created: 1692929214127
 url: "{{host}}/products"
 name: Create Product
@@ -11,10 +11,10 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"name": "Pastel de Queijo",
-    	"price": 1000,
-    	"qtd": 50,
-    	"category_id": 1,
+    	"name": "Canjica",
+    	"price": 500,
+    	"qtd": 25,
+    	"category_id": 4,
     	"stall_id": 1
     }
 parameters: []

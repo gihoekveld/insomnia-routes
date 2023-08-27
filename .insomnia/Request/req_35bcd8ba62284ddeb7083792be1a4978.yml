@@ -1,15 +1,20 @@
 _id: req_35bcd8ba62284ddeb7083792be1a4978
 type: Request
 parentId: fld_3e06207acb4e4259bbe8faae5715bee4
-modified: 1693062040847
+modified: 1693068786816
 created: 1693061985035
-url: "{{host}}/order-tickets/:order_id"
+url: "{{host}}/order-tickets/1"
 name: Update Order
 description: ""
 method: PUT
 body:
   mimeType: application/json
-  text: "{}"
+  text: |-
+    {
+    	"payment_method": "credit_card",
+    	"payment_status": "paid",
+    	"paid_at": "{% now 'iso-8601', '' %}"
+    }
 parameters: []
 headers:
   - name: Content-Type
